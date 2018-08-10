@@ -2,6 +2,14 @@ body{
   padding: 30px 150px;
 }
 
+footer{
+  text-align: center;
+}
+
+footer hr{
+  max-width: 200px;
+}
+
 /*Site title font and size*/
 #site-title{
   font-family: "Yellowtail", cursive;
@@ -9,7 +17,20 @@ body{
   font-size: 38px;
 }
 
-nav{
+article span{
+  font-variant: small-caps;
+  letter-spacing: -1px;
+  font-family: "Overpass", sans-serif;
+}
+
+#print{
+  float: right;
+}
+
+article h1{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 36px;
 }
 
 div.navcontents{
@@ -25,11 +46,29 @@ div.navcontents h3{
 }
 
 div.logos{
-  display: inline-block;
   float: right;
 }
 
+article p{
+  text-indent: 2em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
 
+#ingredients-div{
+  margin: 20px 15px;
+  width: auto;
+  background-image: url("img/list-bg.png");
+  display:flex;
+  justify-content: space-around;
+  box-shadow: 0px 5px 5px slategrey;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+#chocolatepizza{
+  width: 100%;
+}
 
 /*Strikethrough for checked inputs*/
 label.strikethrough{
