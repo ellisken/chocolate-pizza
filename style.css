@@ -6,6 +6,11 @@ footer{
   text-align: center;
 }
 
+article{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 footer hr{
   max-width: 200px;
 }
@@ -19,8 +24,7 @@ footer hr{
 
 article span{
   font-variant: small-caps;
-  letter-spacing: -1px;
-  font-family: "Overpass", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 #print{
@@ -28,9 +32,9 @@ article span{
 }
 
 article h1{
-  font-family: sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 43px;
 }
 
 div.navcontents{
@@ -74,3 +78,34 @@ article p{
 label.strikethrough{
   text-decoration: line-through;
 } 
+
+label{
+  font-family: "Shadows Into Light Two";
+}
+
+div.authordetails{
+  display: inline-block;
+  width: 70%;
+}
+
+div.authordetails h2{
+  font-size: 26px;
+  margin: 10px 10px;
+}
+
+div.authordetails p{
+  font-size: 22px;
+  margin: 10px 10px;
+}
+
+#share-recipe{
+  float: right;
+  background-color:#a35323;
+  font-variant: small-caps;
+  font-family: "Overpass", sans-serif;
+  letter-spacing: -1px;
+  font-size: 26px;
+  padding: 15px 35px;
+  color: whitesmoke;
+  margin-top: 20px;
+}
