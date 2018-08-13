@@ -1,0 +1,132 @@
+body{
+  padding: 30px 150px;
+  width: 75%;
+}
+
+footer{
+  text-align: center;
+  color: darkgray;
+}
+
+/*Site title font and size*/
+#site-title{
+  font-family: "Yellowtail", cursive;
+  font-weight: 600;
+  font-size: 38px;
+}
+
+article span{
+  font-variant: small-caps;
+  font-family: "Oswald", sans-serif;
+  color: darkgray;
+}
+
+#print{
+  float: right;
+}
+
+article h1{
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 43px;
+}
+
+div.navcontents{
+  display: inline-block;
+}
+
+div.navcontents h3{
+  font-variant: small-caps;
+  font-family: "Overpass", sans-serif;
+  letter-spacing: -1px;
+  font-size: 14px;
+  padding-left: 5px;
+}
+
+div.logos{
+  float: right;
+}
+
+article p{
+  text-indent: 2em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+#ingredients-div{
+  margin: 20px 15px;
+  width: auto;
+  background-image: url("img/list-bg.png");
+  display:flex;
+  justify-content: space-around;
+  box-shadow: 0px 5px 5px slategrey;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+#chocolatepizza{
+  width: 100%;
+  clear: both;
+  margin-top: 25px;
+}
+
+input{
+  border: 1px solid black;
+}
+
+/*Strikethrough for checked inputs*/
+label.strikethrough{
+  text-decoration: line-through;
+} 
+
+label{
+  font-family: "Patrick Hand";
+  font-size: 20px;
+}
+
+div.authordetails{
+  display: inline-block;
+  width: 72%;
+  margin-bottom: 60px;
+}
+
+div.authordetails h2{
+  font-size: 22px;
+  margin: 10px 10px;
+  font-weight: bold;
+}
+
+div.authordetails p{
+  font-size: 18px;
+  margin: 10px 10px;
+}
+
+#share-recipe{
+  float: right;
+  background-color:#a35323;
+  font-variant: small-caps;
+  font-family: "Overpass", sans-serif;
+  letter-spacing: -1px;
+  font-size: 24px;
+  padding: 10px 31px;
+  color: whitesmoke;
+  margin-top: 20px;
+}
+
+hr{
+  width: 100%;
+}
+
+hr.style11{
+  height: 6px;
+  background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0; 
+   border: 0;
+   margin-bottom: 20px;
+}
+
+
+footer img{
+  position: relative;
+  bottom: 33px;
+}
